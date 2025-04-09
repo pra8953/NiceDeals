@@ -1,0 +1,24 @@
+<div class="py-10 bg-[#f4f2f7]">
+    <div class="text-center text-[50px] font-bold animated-text">
+        Our Provided Services
+    </div>
+
+    <div class="min-h-screen flex flex-col items-center py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-6">
+            <!-- Card Template -->
+             @for( item of services;track item){
+
+                <div class="cursor-pointer group relative w-80 h-80  rounded-2xl  overflow-hidden transform transition-all duration-500 hover:scale-105 hover:rotate-2 hover:shadow-2xl">
+                    <img src="{{item.img}}" alt="" class="w-full h-full object-cover absolute  transition-opacity duration-500 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-[-50px] left-5 text-white transition-all duration-500 group-hover:bottom-5">
+                        <h3 class="text-xl font-bold">{{item.types}}</h3>
+                        <p class="text-sm opacity-80">{{item.des}}</p>
+                    </div>
+                </div>
+             }
+            
+            
+        </div>
+    </div>
+</div>

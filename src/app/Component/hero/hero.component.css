@@ -1,0 +1,49 @@
+
+    /* Smooth Gradient Animation */
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    .animated-text {
+        background: linear-gradient(90deg, #007cf0, #00dfd8, #7928ca, #ff0080);
+        background-size: 300% 300%;
+        animation: gradientMove 5s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+    
+    
+    
+    
+    /* Chat Assistant Styles */
+    .chat-assistant {
+        position: fixed;
+        bottom: 100px; /* Adjust based on your design */
+        right: 20px;
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .chat-box {
+        padding: 20px;
+        font-size: 16px;
+        color: #333;
+    }
+    
+    /* Chat Icon Hover Effect (Optional) */
+    .cursor-pointer:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+    }
+
+
+
+    

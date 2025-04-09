@@ -1,0 +1,14 @@
+    /* Smooth Gradient Animation */
+    @keyframes gradientMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    .animated-text {
+        background: linear-gradient(90deg, #007cf0, #00dfd8, #7928ca, #ff0080);
+        background-size: 300% 300%;
+        animation: gradientMove 5s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* display: inline-block; */
+    }
