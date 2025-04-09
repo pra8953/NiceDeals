@@ -1,59 +1,43 @@
-# NiceDeal
+# Nice Deals
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+**Nice Deals** is a freelancing-based software solutions company that provides a wide range of custom software application development services. Whether you're looking for a complete **ERP**, **CRM**, **eCommerce system**, or any other custom software, **Nice Deals** has you covered.
 
-## Development server
+## 🧩 About the Project
 
-To start a local development server, run:
+Nice Deals aims to help individuals and businesses build powerful and scalable digital solutions. We specialize in creating **any kind of software application**, tailored specifically to your needs.
 
-```bash
-ng serve
-```
+From small startups to large enterprises, we deliver high-quality and fully functional applications—on time, every time.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- ✅ ERP, CRM, eCommerce, CMS, and all types of custom software development
+- 🤖 AI-powered chatbot for instant support and doubt resolution
+- 🧠 Consultation for software planning and architecture
+- 💬 Real-time communication & updates during development
+- 🌐 Web & Mobile app development
+- 🔒 Secure, scalable, and modern solutions
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tech Stack
 
-```bash
-ng generate component component-name
-```
+We use modern and scalable technologies including:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- **Frontend:** Angular
+- **Styling:** Tailwind CSS
+- **Backend & APIs:** (You can specify here if any — Node.js, Firebase, etc.)
+- **Other Tools:** AI integrations, chatbot frameworks, etc.
 
-```bash
-ng generate --help
-```
+## 🧪 How to Use
 
-## Building
+> For now, this is a service-based platform. To get started, just reach out to us with your requirements through our website or chatbot.
 
-To build the project run:
+## 💬 Contact & Support
 
-```bash
-ng build
-```
+For any queries or to get a quote:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- 📧 Email: [krishna163208@gmail.com]
+- 🤖 Chatbot: Available on the homepage
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📄 License
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is proprietary. All rights reserved by Nice Deals.
